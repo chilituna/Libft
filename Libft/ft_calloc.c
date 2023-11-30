@@ -3,12 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_calloc.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aarponen aarponen@student.42berlin.de      +#+  +:+       +#+        */
+/*   By: aarponen <aarponen@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/07 15:09:15 by aarponen          #+#    #+#             */
-/*   Updated: 2023/06/06 18:33:12 by aarponen         ###   ########.fr       */
+/*   Updated: 2023/11/30 11:39:42 by aarponen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+//allocates memory for an array of nmeb elements of size bytes each 
+//sets the memory to zero
+//returns a pointer to the allocated memory
 
 //#include <stdio.h>
 //#include <stdint.h>

@@ -3,12 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strncmp.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aarponen aarponen@student.42berlin.de      +#+  +:+       +#+        */
+/*   By: aarponen <aarponen@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/06 13:19:36 by aarponen          #+#    #+#             */
-/*   Updated: 2023/05/21 16:34:14 by aarponen         ###   ########.fr       */
+/*   Updated: 2023/11/30 13:45:43 by aarponen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+// compares two strings up to n characters
+// returns 0 if strings are identical, 
+// otherwise the difference between the first two differing bytes
 
 //#include <stdio.h>
 //#include <string.h>

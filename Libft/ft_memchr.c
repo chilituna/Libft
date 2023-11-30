@@ -3,12 +3,17 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aarponen aarponen@student.42berlin.de      +#+  +:+       +#+        */
+/*   By: aarponen <aarponen@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/07 13:04:30 by aarponen          #+#    #+#             */
-/*   Updated: 2023/05/07 14:16:41 by aarponen         ###   ########.fr       */
+/*   Updated: 2023/11/30 13:53:18 by aarponen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+// scans the initial n bytes of the memory area pointed to by s 
+// for the first instance of c.
+// returns a pointer to the matching byte or NULL if the character 
+// does not occur in the given memory area.
 
 //#include <stdio.h>
 //#include <string.h>

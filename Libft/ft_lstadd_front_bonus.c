@@ -3,12 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstadd_front_bonus.c                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aarponen aarponen@student.42berlin.de      +#+  +:+       +#+        */
+/*   By: aarponen <aarponen@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/28 19:33:20 by aarponen          #+#    #+#             */
-/*   Updated: 2023/05/31 15:58:54 by aarponen         ###   ########.fr       */
+/*   Updated: 2023/11/30 12:00:30 by aarponen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+// Adds the node ’new’ at the beginning of the list.
 
 #include "libft.h"
 //#include <stdio.h>

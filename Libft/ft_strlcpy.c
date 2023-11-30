@@ -3,12 +3,18 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlcpy.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aarponen aarponen@student.42berlin.de      +#+  +:+       +#+        */
+/*   By: aarponen <aarponen@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/05 15:43:00 by aarponen          #+#    #+#             */
-/*   Updated: 2023/05/05 16:51:12 by aarponen         ###   ########.fr       */
+/*   Updated: 2023/11/30 13:53:59 by aarponen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+// size-bounded string copying:
+// copies up to size - 1 characters from the NUL-terminated string src to dst, 
+// NUL-terminating the result.
+// Returns the total length of the string it tried to create:
+// the length of src.
 
 //#include <string.h>
 //#include <stdio.h>

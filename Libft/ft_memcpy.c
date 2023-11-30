@@ -3,12 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memcpy.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aarponen aarponen@student.42berlin.de      +#+  +:+       +#+        */
+/*   By: aarponen <aarponen@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/07 10:36:59 by aarponen          #+#    #+#             */
-/*   Updated: 2023/05/24 11:26:34 by aarponen         ###   ########.fr       */
+/*   Updated: 2023/11/30 12:35:16 by aarponen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+//copy n bytes from memory area src to memory area dest
+//returns a pointer to dest
+//if dest and src overlap, memmove() is a safer approach than memcpy()
 
 //#include <stdio.h>
 //#include <string.h>

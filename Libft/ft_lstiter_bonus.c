@@ -3,12 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstiter_bonus.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aarponen aarponen@student.42berlin.de      +#+  +:+       +#+        */
+/*   By: aarponen <aarponen@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/01 15:58:26 by aarponen          #+#    #+#             */
-/*   Updated: 2023/06/01 16:26:20 by aarponen         ###   ########.fr       */
+/*   Updated: 2023/11/30 12:00:24 by aarponen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+// Iterates the list ’lst’ and applies the function
+// ’f’ on the content of each node.
 
 #include "libft.h"
 /*#include <stdio.h>

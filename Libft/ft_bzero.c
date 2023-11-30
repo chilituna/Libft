@@ -3,12 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_bzero.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aarponen aarponen@student.42berlin.de      +#+  +:+       +#+        */
+/*   By: aarponen <aarponen@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/07 14:38:35 by aarponen          #+#    #+#             */
-/*   Updated: 2023/07/05 10:08:13 by aarponen         ###   ########.fr       */
+/*   Updated: 2023/11/30 13:52:44 by aarponen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+// erases the data in the n bytes of the memory 
+// starting at the location pointed to by s, by writing zeros 
+// (bytes containing '\0') to that area.
 
 //#include <stdio.h>
 #include "libft.h"

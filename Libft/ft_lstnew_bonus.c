@@ -3,12 +3,17 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstnew_bonus.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aarponen aarponen@student.42berlin.de      +#+  +:+       +#+        */
+/*   By: aarponen <aarponen@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/28 18:05:33 by aarponen          #+#    #+#             */
-/*   Updated: 2023/06/01 18:41:41 by aarponen         ###   ########.fr       */
+/*   Updated: 2023/11/30 12:00:49 by aarponen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+// Allocates (with malloc(3)) and returns a new node.
+// The member variable ’content’ is initialized with
+// the value of the parameter ’content’. The variable
+// ’next’ is initialized to NULL
 
 #include "libft.h"
 //#include <stdio.h>

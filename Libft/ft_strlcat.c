@@ -3,12 +3,20 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlcat.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aarponen aarponen@student.42berlin.de      +#+  +:+       +#+        */
+/*   By: aarponen <aarponen@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/05 16:52:32 by aarponen          #+#    #+#             */
-/*   Updated: 2023/06/03 13:09:42 by aarponen         ###   ########.fr       */
+/*   Updated: 2023/11/30 13:51:15 by aarponen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+// size-bounded string concatenation: 
+// appends the NUL-terminated string src to the end of dst.
+// Appends at most size - strlen(dst) - 1 bytes, NUL-terminating the result.
+// Returns the total length of the string it tried to create:
+// the initial length of dst plus the length of src.
+// NOTE: if NUL is not found within size bytes, dst will not be NUL-terminated 
+// and the return value will be size + strlen(src).
 
 #include "libft.h"
 /*#include <stdio.h>

@@ -3,12 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstclear_bonus.c                                :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aarponen <aarponen@student.42berlin.d      +#+  +:+       +#+        */
+/*   By: aarponen <aarponen@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/31 20:14:48 by aarponen          #+#    #+#             */
-/*   Updated: 2023/07/05 10:07:36 by aarponen         ###   ########.fr       */
+/*   Updated: 2023/11/30 11:56:34 by aarponen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+// Deletes and frees the given node and every successor of that node, 
+// using the function ’del’and free(3).
+// Finally, the pointer to the list must be set to NULL.
 
 #include "libft.h"
 //#include <stdlib.h>

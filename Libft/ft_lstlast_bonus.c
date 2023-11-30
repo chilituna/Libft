@@ -3,12 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstlast_bonus.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aarponen aarponen@student.42berlin.de      +#+  +:+       +#+        */
+/*   By: aarponen <aarponen@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/31 16:30:05 by aarponen          #+#    #+#             */
-/*   Updated: 2023/05/31 16:42:20 by aarponen         ###   ########.fr       */
+/*   Updated: 2023/11/30 11:58:03 by aarponen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+// Returns the last node of the list.
 
 #include "libft.h"
 //#include <stdio.h>

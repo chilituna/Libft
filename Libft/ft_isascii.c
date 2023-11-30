@@ -3,12 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isascii.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aarponen aarponen@student.42berlin.de      +#+  +:+       +#+        */
+/*   By: aarponen <aarponen@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/02 12:08:17 by aarponen          #+#    #+#             */
-/*   Updated: 2023/05/24 19:09:51 by aarponen         ###   ########.fr       */
+/*   Updated: 2023/11/30 11:44:43 by aarponen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+//checks if the passed character is ASCII
+//returns nonzero if true, 0 if false
 
 //#include <stdio.h>
 //#include <ctype.h>

@@ -3,12 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_itoa.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aarponen aarponen@student.42berlin.de      +#+  +:+       +#+        */
+/*   By: aarponen <aarponen@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/17 10:37:25 by aarponen          #+#    #+#             */
-/*   Updated: 2023/07/05 10:09:39 by aarponen         ###   ########.fr       */
+/*   Updated: 2023/11/30 13:54:38 by aarponen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+// allocates and returns a string representing the integer 
+// received as an argument
 
 //#include <stdio.h>
 #include "libft.h"

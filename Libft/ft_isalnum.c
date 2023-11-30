@@ -3,12 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isalnum.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aarponen aarponen@student.42berlin.de      +#+  +:+       +#+        */
+/*   By: aarponen <aarponen@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/02 11:51:21 by aarponen          #+#    #+#             */
-/*   Updated: 2023/05/24 19:11:49 by aarponen         ###   ########.fr       */
+/*   Updated: 2023/11/30 11:44:11 by aarponen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+//checks if the passed character is alphanumeric
+//returns nonzero if true, 0 if false
 
 //#include <stdio.h>
 //#include <ctype.h>

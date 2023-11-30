@@ -3,12 +3,17 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memmove.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aarponen aarponen@student.42berlin.de      +#+  +:+       +#+        */
+/*   By: aarponen <aarponen@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/07 11:52:58 by aarponen          #+#    #+#             */
-/*   Updated: 2023/07/05 10:09:54 by aarponen         ###   ########.fr       */
+/*   Updated: 2023/11/30 13:52:12 by aarponen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+// copies n bytes from memory area src to memory area dest.  
+// The memory areas may overlap:
+// if there is no overlap, it uses forward copying, 
+// otherwise backward copying is used to avoid overwriting the data.
 
 //#include <stdio.h>
 #include "libft.h"

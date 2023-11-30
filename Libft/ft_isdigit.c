@@ -3,12 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isdigit.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aarponen aarponen@student.42berlin.de      +#+  +:+       +#+        */
+/*   By: aarponen <aarponen@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/02 11:42:20 by aarponen          #+#    #+#             */
-/*   Updated: 2023/05/24 19:07:35 by aarponen         ###   ########.fr       */
+/*   Updated: 2023/11/30 11:44:51 by aarponen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+//checks if the passed character is a digit
+//returns nonzero if true, 0 if false
 
 //#include <stdio.h>
 //#include <ctype.h>

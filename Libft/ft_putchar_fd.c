@@ -3,12 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putchar_fd.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aarponen aarponen@student.42berlin.de      +#+  +:+       +#+        */
+/*   By: aarponen <aarponen@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/17 13:56:02 by aarponen          #+#    #+#             */
-/*   Updated: 2023/05/24 10:52:08 by aarponen         ###   ########.fr       */
+/*   Updated: 2023/11/30 12:47:08 by aarponen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+// Outputs the character ’c’ to the given file descriptor.
 
 //#include <fcntl.h>
 //#include <stdio.h>

@@ -3,12 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putendl_fd.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aarponen aarponen@student.42berlin.de      +#+  +:+       +#+        */
+/*   By: aarponen <aarponen@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/17 15:31:24 by aarponen          #+#    #+#             */
-/*   Updated: 2023/05/17 15:57:51 by aarponen         ###   ########.fr       */
+/*   Updated: 2023/11/30 12:47:56 by aarponen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+// Outputs the string ’s’ to the given file descriptor followed by a newline.
 
 //#include <stdio.h>
 //#include <fcntl.h>

@@ -3,12 +3,17 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstdelone_bonus.c                               :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aarponen aarponen@student.42berlin.de      +#+  +:+       +#+        */
+/*   By: aarponen <aarponen@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/31 18:27:48 by aarponen          #+#    #+#             */
-/*   Updated: 2023/06/01 14:38:02 by aarponen         ###   ########.fr       */
+/*   Updated: 2023/11/30 11:57:16 by aarponen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+// Takes as a parameter a node and frees the memory of
+// the node’s content using the function ’del’ given
+// as a parameter and free the node. The memory of
+// ’next’ must not be freed.
 
 #include "libft.h"
 //#include <stdio.h>

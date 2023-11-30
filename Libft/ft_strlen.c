@@ -3,12 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlen.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aarponen aarponen@student.42berlin.de      +#+  +:+       +#+        */
+/*   By: aarponen <aarponen@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/02 12:31:43 by aarponen          #+#    #+#             */
-/*   Updated: 2023/05/05 15:56:51 by aarponen         ###   ########.fr       */
+/*   Updated: 2023/11/30 13:13:55 by aarponen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+//returns the length of the string
 
 //#include <stdio.h>
 //#include <string.h>

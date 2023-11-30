@@ -3,12 +3,18 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstmap_bonus.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aarponen aarponen@student.42berlin.de      +#+  +:+       +#+        */
+/*   By: aarponen <aarponen@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/01 16:32:41 by aarponen          #+#    #+#             */
-/*   Updated: 2023/06/14 12:25:17 by aarponen         ###   ########.fr       */
+/*   Updated: 2023/11/30 11:59:48 by aarponen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+// Iterates the list ’lst’ and applies the function
+// ’f’ on the content of each node. Creates a new
+// list resulting of the successive applications of
+// the function ’f’. The ’del’ function is used to
+// delete the content of a node if needed.
 
 #include "libft.h"
 //#include <stdio.h>

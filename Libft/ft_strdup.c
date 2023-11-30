@@ -3,12 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strdup.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aarponen aarponen@student.42berlin.de      +#+  +:+       +#+        */
+/*   By: aarponen <aarponen@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/10 13:08:05 by aarponen          #+#    #+#             */
-/*   Updated: 2023/05/10 14:37:04 by aarponen         ###   ########.fr       */
+/*   Updated: 2023/11/30 13:55:44 by aarponen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+// allocates sufficient memory for a copy of the string s1, 
+// does the copy, and returns a pointer to it 
 
 //#include <string.h>
 //#include <stdio.h>

@@ -3,12 +3,18 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strnstr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aarponen aarponen@student.42berlin.de      +#+  +:+       +#+        */
+/*   By: aarponen <aarponen@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/06 14:06:24 by aarponen          #+#    #+#             */
-/*   Updated: 2023/07/05 10:08:58 by aarponen         ###   ########.fr       */
+/*   Updated: 2023/11/30 13:51:59 by aarponen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+// locates the first occurrence of the null-terminated string s2 in the 
+// string s1, where not more than n characters are searched
+// characters that appear after a `\0' character are not searched
+// returns a pointer to the first character of the first occurrence of 
+// s2 in s1, or NULL if s2 is not part of s1
 
 //#include <stdio.h>
 #include "libft.h"

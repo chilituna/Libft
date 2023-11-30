@@ -3,12 +3,17 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strrchr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aarponen aarponen@student.42berlin.de      +#+  +:+       +#+        */
+/*   By: aarponen <aarponen@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/06 16:52:35 by aarponen          #+#    #+#             */
-/*   Updated: 2023/05/28 12:25:52 by aarponen         ###   ########.fr       */
+/*   Updated: 2023/11/30 13:50:22 by aarponen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+// locates the last occurrence of c in the string pointed to by s
+// returns a pointer to the located character, or NULL if no match was found.
+// the terminating null byte is considered part of the string:
+// if c is '\0', the function locates the terminating '\0'.
 
 //#include <stdio.h>
 //#include <string.h>

@@ -3,12 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aarponen aarponen@student.42berlin.de      +#+  +:+       +#+        */
+/*   By: aarponen <aarponen@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/06 18:01:12 by aarponen          #+#    #+#             */
-/*   Updated: 2023/06/06 19:16:49 by aarponen         ###   ########.fr       */
+/*   Updated: 2023/11/30 11:42:02 by aarponen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+//convert a string to an integer
+//returns the converted value or 0 on error
 
 //#include <stdio.h>
 #include "libft.h"

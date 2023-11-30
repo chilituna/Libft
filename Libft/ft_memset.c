@@ -3,12 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memset.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aarponen aarponen@student.42berlin.de      +#+  +:+       +#+        */
+/*   By: aarponen <aarponen@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/02 13:08:33 by aarponen          #+#    #+#             */
-/*   Updated: 2023/07/05 10:10:06 by aarponen         ###   ########.fr       */
+/*   Updated: 2023/11/30 13:46:03 by aarponen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+//fills the first n bytes of the memory area pointed to by s 
+// with the constant byte c
 
 //#include <stdio.h>
 //#include <string.h>

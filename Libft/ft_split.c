@@ -3,12 +3,17 @@
 /*                                                        :::      ::::::::   */
 /*   ft_split.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aarponen aarponen@student.42berlin.de      +#+  +:+       +#+        */
+/*   By: aarponen <aarponen@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/13 13:46:04 by aarponen          #+#    #+#             */
-/*   Updated: 2023/06/07 11:25:47 by aarponen         ###   ########.fr       */
+/*   Updated: 2023/11/30 12:53:57 by aarponen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+// Allocates and returns an array of strings obtained by splitting ’s’ 
+// using the character ’c’ as a delimiter. 
+// The array must end with a NULL pointer.
+// Returns the array of new strings, or NULL if the allocation fails.
 
 //#include <stdio.h>
 #include "libft.h"

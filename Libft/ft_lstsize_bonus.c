@@ -3,12 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstsize_bonus.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aarponen <aarponen@student.42berlin.d      +#+  +:+       +#+        */
+/*   By: aarponen <aarponen@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/31 16:08:24 by aarponen          #+#    #+#             */
-/*   Updated: 2023/05/31 16:28:35 by aarponen         ###   ########.fr       */
+/*   Updated: 2023/11/30 12:01:07 by aarponen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+// Counts the number of nodes in a list.
 
 #include "libft.h"
 //#include <stdio.h>

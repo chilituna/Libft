@@ -3,12 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_tolower.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aarponen aarponen@student.42berlin.de      +#+  +:+       +#+        */
+/*   By: aarponen <aarponen@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/06 17:43:24 by aarponen          #+#    #+#             */
-/*   Updated: 2023/05/06 17:45:11 by aarponen         ###   ########.fr       */
+/*   Updated: 2023/11/30 13:40:29 by aarponen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+// converts uppercase letters to lowercase 
 
 //#include <stdio.h>
 //#include <ctype.h>

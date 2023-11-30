@@ -3,12 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memcmp.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aarponen aarponen@student.42berlin.de      +#+  +:+       +#+        */
+/*   By: aarponen <aarponen@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/07 14:21:38 by aarponen          #+#    #+#             */
-/*   Updated: 2023/05/07 14:38:09 by aarponen         ###   ########.fr       */
+/*   Updated: 2023/11/30 13:55:28 by aarponen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+// compares the first n bytes of memory area str1 and memory area str2
+// returns 0 if the two memory areas are identical, otherwise returns 
+// the difference between the first two differing bytes
 
 //#include <stdio.h>
 //#include <string.h>

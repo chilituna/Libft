@@ -116,3 +116,7 @@ cc main.c -L. -lft -I. -o my_program
 - Implementing low-level utilities improved my understanding of pointer safety and memory boundaries
 - Rebuilding familiar APIs sharpened my focus on contract design and edge-case behavior
 - Structuring a reusable static library improved code organization and long-term maintainability
+
+## License
+
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
